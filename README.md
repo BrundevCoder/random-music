@@ -11,7 +11,9 @@ First, there's an array on the js called `musics`, wich contains the necessary d
 Which follows this structure:
 
 - `{"Song": "You Give Love A Bad Name", "Artist": "Bon Jovi", "Id": "0rmGAIH9LNJewFw7nKzZnc"}`
+
 Or more specifically:
+
 - `{"Song": "SONG_NAME", "Artist": "ARTIST_NAME", "Id": "SPOTIFY_MUSIC_CODE"}`
 
 The code takes all this data and simply displays it on your screen.
