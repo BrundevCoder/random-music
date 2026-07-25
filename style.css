@@ -27,6 +27,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 1.25rem;
     background: #111;
     padding-top: 3rem;
@@ -42,18 +43,19 @@ main {
     flex-direction: column-reverse;
 }
 
-#singer, #title {
+.singer, .title {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     color: #ddd;
 }
 
-#singer {
+.singer {
+    text-transform: uppercase;
     font-size: 1.5rem;
 }
 
-#title {
+.title {
     font-size: 3rem;
 }
 
@@ -64,4 +66,28 @@ main {
 .song-frame {
     width: 100%;
     height: 190px;
+}
+
+.reload-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    max-width: 150px;
+    padding: 0.55rem;
+    border-radius: 12px;
+    border: none;
+    background: #1ed760;
+    color: #000;
+    transition: 150ms ease;
+}
+
+.reload-btn:hover {
+    transform: scale(1.05);
+}
+
+.reload-btn:active {
+    transform: scale(0.9);
+    background: #169141;
+    color: #bbbbbb;
 }

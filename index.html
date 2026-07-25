@@ -13,15 +13,17 @@
 
         <div class="song-displayer">
 
-            <div class="song-container">
-                <iframe class="song-frame" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3UbEemDEz6b6l5EBiswULJ?utm_source=generator&si=c9155cb9da174148" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <div id="s-container" class="song-container">
+                <iframe class="song-frame" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3UbEemDEz6b6l5EBiswULJ" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
                 <div class="song-data">
-                    <p id="title">Burger</p>
-                    <p id="singer">BBNO$</p>
+                    <p class="title">Burger</p>
+                    <p class="singer">BBNO$</p>
                 </div>
 
             </div>
+
+            <button class="reload-btn" id="reloadButton">Other</button>
 
         </div>
 
